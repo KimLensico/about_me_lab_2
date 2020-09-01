@@ -1,0 +1,25 @@
+#site-title {
+    background-color: rgba(210, 236, 240);
+    color: rgba(55, 8, 19);
+
+}
+
+body {
+    height: calc(100vh - 300px);
+}
+
+header {
+    height: 200px;
+    border-style: solid;
+
+}
+
+main {
+    height: 100%;
+    border-style: solid;
+}
+
+footer {
+    height: 100px;
+    border-style: solid;
+}
