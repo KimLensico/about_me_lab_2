@@ -3,7 +3,7 @@
     background-color: rgba(210, 236, 240);
     color: rgba(55, 8, 19);
     padding: 25px;
-    margin: bottom 50px; top
+    margin: bottom 50px;
 }
 
 body {
@@ -14,10 +14,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     opacity: 0.75;
-    
-    
-   
-}
+    border-style: hidden;
+    }
 
 header {
     text-align: center;
@@ -27,8 +25,22 @@ header {
 }
 
 main {
-    text-align: center;
-    height: 100%;
+        
+}
+
+}
+#Art {
+    text-align: left;
+    background-color: rgba(210, 236, 240);
+    color: rgba(55, 8, 19);
+    padding: 15px, 5px, 15px, 10px;
+    border-style: solid;
+}
+#cooking {
+    text-align: left;
+    background-color: rgba(210, 236, 240);
+    color: rgba(55, 8, 19);
+    padding: 25px 50px 75px 100px;
     border-style: solid;
 }
 
