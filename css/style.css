@@ -1,20 +1,33 @@
 #site-title {
     text-align: center;
-    background-clip: rgba(210, 236, 240);
+    background-color: rgba(210, 236, 240);
     color: rgba(55, 8, 19);
+    padding: 25px;
+    margin: bottom 50px; top
 }
 
 body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/02/18/11/50/mountain-landscape-640617_1280.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.75;
+    
+    
    
 }
 
 header {
+    text-align: center;
     height: 100px;
-    border-style: solid;
+    
 
 }
 
 main {
+    text-align: center;
     height: 100%;
     border-style: solid;
 }
