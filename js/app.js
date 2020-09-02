@@ -30,11 +30,20 @@ if (ready === true) {
     while (hiking) {
         if (hiking.toLowerCase() === "yes") {
             alert("Sweet me too!");
+            var joinMe = prompt("I know a place with a great view, would you like to check it out?");
+            if (joinMe.toLowerCase() === 'yes') {
+                alert("Lets' go!")
+            }
             console.log(hiking.toLowerCase());
         } else if (hiking.toLowerCase() === "no") {
             var no = prompt("Have you ever gone hiking to know that you don't like it?")
             if (no.toLowerCase() === 'yes') {
-                alert("I'm sorry to hear that");
+            var yes = prompt("Would you like to try it again with me sometime?");
+            if (yes.toLowerCase() === 'yes') {
+            var nameLocation = prompt("Where would you like to go?");
+                alert("We're going to " + nameLocation.toLowerCase() + " then!");
+                console.log(nameLocation.toLowerCase());
+            }
             } else if (no.toLowerCase() === "no") {
                 alert("Let's try it sometime then!");
                 console.log(no.toLowerCase());
