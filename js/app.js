@@ -1,5 +1,7 @@
 'use strict';
 
+var correctanswers= 0;
+
 console.log("js is loaded");
 
 var ready = confirm("Would you like to be friends?");
@@ -65,4 +67,41 @@ if (ready === true) {
             alert("You need to answer yes or no");
             console.log(cookies.toLowerCase());
         }
+}
+
+//ask user to guess my age
+    var answer = 28
+    for (var guess = 0; guess < 4; guess++) {
+        var age = prompt("How old do you think I am?");
+        if (parseInt(age) === answer) {
+            alert ("Correct!");
+            correctanswers++ 
+        break;
+        } else if (parseInt(age) < answer) {
+            alert ("your guess is too low");
+        } else if (parseInt(age) > answer) {
+            alert ("your guess is too high");
+            
+        }
+    }   
+//ask user to guess what states I have lived in
+    var answers = ["new york" , "california" , "nevada"];
+
+    for (var guess = 0; guess < 6; guess++) {
+        var locate = prompt("Can you guess at least one state that I have lived in?");
+        console.log(locate);
+        if (answers.includes(locate.toLowerCase())) {
+            correctanswers++
+            alert ("YES! You got it!");
+        break;
+        
+        } else if (guess === 5 && !answers.includes(locate.toLowerCase())) {
+            alert ("The correct answers are: new york, california, nevada!");
+        }
+        
+        
+        else {
+            alert ("Sorry, keep guessing!");
+        }
     }
+    alert ("You guessed " + correctanswers + " correctly");
