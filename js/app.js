@@ -95,7 +95,7 @@ if (ready === true) {
             alert ("YES! You got it!");
         break;
         
-        } else if (guess === 5 && !answers.includes(locate.toLowerCase())) {
+        // } else if (guess === 5 && !answers.includes(locate.toLowerCase())) {
             alert ("The correct answers are: new york, california, nevada!");
         }
         
